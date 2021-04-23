@@ -4,9 +4,275 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mfiq.css">
     <title>MFIQ</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a href="./index.html" class="nav-item nav-link active"> 
+                    Home
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a href="#" class="nav-item nav-link active"> 
+                    Calculadora MFIQ
+                </a>
+            </li>
+            <li class="nav-item active dropdown"> 
+                <a href="#" class="nav-item nav-link active teste">
+                    Listas RDC
+                </a>
+                <div class="dropdown-content">
+                    <a href="#" class="nav-item nav-link active">Lista 1</a>
+                    <a href="#" class="nav-item nav-link active">Lista 2</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Ação</th>
+                <th scope="col">Pontuação</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Atividades sociais</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Falar</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Dar uma boa mordida</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Mastigar comida dra</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Mastigar comida mole</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Trabalhar ou realizar atividades de vida diaria</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Beber</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Rir</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Mastigar comida dura</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Bocejar</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Beijar</th>
+                <td>
+                    <select class="custom-select option-width">
+                    <option selected value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Comer inclui morder, mastigar e deglutir. Quanto de dificuldade você tem para comer os seguintes alimentos:</p>
+
+          <table>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th scope="row">Uma bolacha dura</th>
+                        <td>
+                            <select class="custom-select option-width">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Um bife</th>
+                        <td>
+                            <select class="custom-select option-width">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Uma cenoura crua</th>
+                        <td>
+                            <select class="custom-select option-width">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Um pão francês</th>
+                        <td>
+                            <select class="custom-select option-width">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Amendoim</th>
+                        <td>
+                            <select class="custom-select option-width">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Uma maçã</th>
+                        <td>
+                            <select class="custom-select option-width">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Atividades sociais</th>
+                        <td>
+                            <select class="custom-select option-width">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </td>
+                      </tr>
+                </tbody> 
+          </table>
+        </div>
+          <div>
+              <textarea  cols="50" rows="6" placeholder="Resultado aqui...." disabled></textarea>
+          </div>
+    </div>
 </body>
 </html>
